@@ -1,0 +1,22 @@
+{
+    "name": "rexxars/imbo-http-hooks",
+    "description": "Perform HTTP requests when Imbo events occur",
+    "require": {
+        "guzzle/guzzle": "~3.8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Espen Hovlandsdal",
+            "email": "rexxars@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Rexxars\\": "library/"
+        }
+    }
+}
