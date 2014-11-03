@@ -11,6 +11,7 @@
 namespace Rexxars\Imbo;
 
 use Imbo\EventManager\EventInterface,
+    Imbo\EventListener\ListenerInterface,
     Guzzle\Http\Client as HttpClient;
 
 /**
